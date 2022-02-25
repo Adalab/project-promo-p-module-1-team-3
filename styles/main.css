@@ -1,3 +1,42 @@
+:root {
+  /*Colores*/
+  --dark-green: #099d8d;
+  --light-green: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #54585a;
+  --light-grey: #b8b8b9;
+  --background-grey: #f1f1f1;
+}
+
+/*GRUPAL*/
+
+body {
+  background-color: var(--background-grey);
+}
+
+/*MIRIAM*/
+
+.team-background {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.team-photo {
+  background-image: url(../images/fondo_provisional.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 180px;
+}
+
+.team-motto {
+  background-color: var(--background-grey);
+  text-align: center;
+  position: relative;
+  bottom: -20px;
+
 /*ROSA*/
 
 .titulo-verde {
