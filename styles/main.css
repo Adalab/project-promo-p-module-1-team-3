@@ -1,4 +1,7 @@
 :root {
+  /*Fuentes*/
+  --open-sans: "Open Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
   /*Colores*/
   --dark-green: #099d8d;
   --light-green: #14d9c4;
@@ -7,6 +10,7 @@
   --dark-grey: #54585a;
   --light-grey: #b8b8b9;
   --background-grey: #f1f1f1;
+  /*Iconos*/
 }
 
 /*GRUPAL*/
@@ -33,6 +37,10 @@ body {
 
 .team-motto {
   background-color: var(--background-grey);
+  font-family: var(--open-sans);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--black);
   text-align: center;
   position: relative;
   bottom: -20px;
@@ -126,6 +134,6 @@ body {
 }
 
 /*en principio se cambiaba el color del icono pero no sé que he hecho que ya no me deja. El lunes lo reviso de nuevo*/
-.fa-brands fa-solid {
+.fa-brands .fa-solid {
   color: var(--dark-green);
 }
