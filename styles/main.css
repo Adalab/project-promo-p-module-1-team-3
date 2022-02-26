@@ -36,6 +36,7 @@ body {
   text-align: center;
   position: relative;
   bottom: -20px;
+}
 
 /*ROSA*/
 
@@ -87,4 +88,37 @@ body {
   justify-content: center;
   justify-items: center;
   padding: 5% 2.5% 5% 2.5%;
+}
+/*Alejandra*/
+
+.container-presentacion {
+  background: var(--white);
+}
+
+.quienes {
+  font-family: Rubik-Medium;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark-green);
+}
+.title-nombre {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  text-align: center;
+  color: var(--black);
+}
+
+.descripcion {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-grey);
+}
+
+.redes-lista {
+  display: flex;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  justify-content: center;
 }
