@@ -19,6 +19,66 @@ body {
   background-color: var(--background-grey);
 }
 
+/*MARIA*/
+
+.title-points {
+  list-style: none;
+  /*border: 10px solid pink;*/ /*esto muestra el margen que esta mal*/
+  margin: 0%;
+  padding: 0%;
+  position: fixed; /*no me deja utilizarlo
+  top: -10px; /*no creo que sea la solucion, es temporal*/
+  left: 0px; /* esto lo soluciona temporalmete*/
+  right: 0px;
+  height: 60px;
+  z-index: 999;
+  width: 100%;
+}
+
+h1 {
+  font-size: 16px;
+}
+.title {
+  background-color: #099d8d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  font-family: var(--rubik);
+  /*border: 10px solid black;*/
+}
+.options {
+  background-color: #14d9c4;
+  height: 45px;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.point {
+  color: white;
+  font-size: 15px;
+  font-family: var(--rubik);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+/*main {
+  transform: translateY(80px);
+  position: relative;
+  top: 50px;}*/ /*Esto podria recolver el problema de la superpuesta, pero cambiaria la parte siguiente*/
+
 /*MIRIAM*/
 
 .team-background {
