@@ -14,6 +14,8 @@
 
 /*GRUPAL*/
 
+/*Esto es para que cuando subamos las imágenes, si añadis esta etiqueta, se pongan todas con la misma dimensión y con el mismo borde. */
+
 .images {
   width: 180px;
   height: 180px;
@@ -22,15 +24,13 @@
 
 /*MARIA*/
 
+/*María, al quitar el border que añadiste, se ajusta sin problemas. El borde viene de la lista, no del header como tal, y al retirarlo pues apañado. Así que lo de left y right tampoco es necesario porque se corrije sólo con la position:fixed. Miriam.*/
+
 .title-points {
   list-style: none;
-  /*border: 10px solid pink;*/ /*esto muestra el margen que esta mal*/
   margin: 0%;
   padding: 0%;
-  position: fixed; /*no me deja utilizarlo
-  top: -10px; /*no creo que sea la solucion, es temporal*/
-  left: 0px; /* esto lo soluciona temporalmete*/
-  right: 0px;
+  position: fixed;
   height: 60px;
   z-index: 999;
   width: 100%;
@@ -39,8 +39,11 @@
 h1 {
   font-size: 16px;
 }
+
+/* Añadí opacidad al color de la cabecera para que se transparente un poco como en la versión móvil de Zeplin. Miriam. */
+
 .title {
-  background-color: #099d8d;
+  background-color: #099d8e96;
   color: white;
   display: flex;
   justify-content: center;
@@ -143,6 +146,8 @@ a {
   margin-top: 30px;
 }
 
+/*Si quitas el width y pones flex-direction:column, se te pondrá como en la versión móvil. Luego si queremos ajustar algo más creo que se puede marcar con algo de padding. Miriam */
+
 .container-fortaleza-debilidad {
   width: 80%;
   background-color: #f1f1f1;
@@ -198,7 +203,7 @@ a {
   padding-inline-start: 0;
 }
 
-/*Pude solucionarlo, Ale. Simplemente utilicé la clase que creaste de "fa.solid" de manera individual. Se ve que estaría haciendo conflicto por algún motivo pero por separado funciona.*/
+/*Pude solucionarlo, Alejandra. Simplemente utilicé la clase que creaste de "fa.solid" de manera individual. Se ve que estaría haciendo conflicto por algún motivo pero por separado funciona. Miriam.*/
 
 .fa-brands {
   color: var(--dark-green);
