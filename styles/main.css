@@ -10,13 +10,14 @@
   --dark-grey: #54585a;
   --light-grey: #b8b8b9;
   --background-grey: #f1f1f1;
-  /*Iconos*/
 }
 
 /*GRUPAL*/
 
-body {
-  background-color: var(--background-grey);
+.images {
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--background-grey);
 }
 
 /*MIRIAM*/
@@ -32,18 +33,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 180px;
+  height: 421px;
 }
 
 .team-motto {
-  background-color: var(--background-grey);
+  background-color: var(--white);
   font-family: var(--open-sans);
   font-weight: bold;
-  font-size: 18px;
   color: var(--black);
   text-align: center;
   position: relative;
-  bottom: -20px;
+  bottom: -43px;
+  height: 80px;
+  margin: 0 15px 0 15px;
 }
 
 /*ROSA*/
@@ -78,6 +80,7 @@ body {
   justify-content: center;
   justify-items: center;
   padding: 0% 2.5% 0% 2.5%;
+  margin-top: 30px;
 }
 
 .container-fortaleza-debilidad {
@@ -101,6 +104,7 @@ body {
 
 .container-presentacion {
   background: var(--white);
+  text-align: center;
 }
 
 .quienes {
@@ -131,9 +135,44 @@ body {
   /*creo que lo correcto es hacerlo con inline margin y padding pero no me deja ¿podemos intentar luego juntas?*/
   gap: 5px;
   text-align: center;
+  padding-inline-start: 0;
 }
 
-/*en principio se cambiaba el color del icono pero no sé que he hecho que ya no me deja. El lunes lo reviso de nuevo*/
-.fa-brands .fa-solid {
+/*Pude solucionarlo, Ale. Simplemente utilicé la clase que creaste de "fa.solid" de manera individual. Se ve que estaría haciendo conflicto por algún motivo pero por separado funciona.*/
+
+.fa-brands {
   color: var(--dark-green);
+}
+
+.fa-solid {
+  color: var(--dark-green);
+}
+
+/* ZAHIRA */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid var(--light-grey);
+}
+.ul-footer {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.link-footer {
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+}
+.image-adalab {
+  height: 45px;
+  width: 115.9px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.p {
+  margin-top: 45px;
 }
