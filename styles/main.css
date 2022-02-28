@@ -137,3 +137,30 @@ body {
 .fa-brands .fa-solid {
   color: var(--dark-green);
 }
+
+/*ZAHIRA*/
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.ul-footer {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.link-footer {
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+}
+.image-adalab {
+  height: 45px;
+  width: 115.9px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.p {
+  margin-top: 45px;
+}
