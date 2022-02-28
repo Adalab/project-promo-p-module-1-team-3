@@ -164,3 +164,246 @@ body {
 .p {
   margin-top: 45px;
 }
+:root {
+  /*Fuentes*/
+  --open-sans: "Open Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
+  /*Colores*/
+  --dark-green: #099d8d;
+  --light-green: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #54585a;
+  --light-grey: #b8b8b9;
+  --background-grey: #f1f1f1;
+}
+
+/*GRUPAL*/
+
+/*Esto es para que cuando subamos las imágenes, si añadis esta etiqueta, se pongan todas con la misma dimensión y con el mismo borde. */
+
+.images {
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--background-grey);
+}
+
+/*MARIA*/
+
+/*María, al quitar el border que añadiste, se ajusta sin problemas. El borde viene de la lista, no del header como tal, y al retirarlo pues apañado. Así que lo de left y right tampoco es necesario porque se corrije sólo con la position:fixed. Miriam.*/
+
+.title-points {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  height: 60px;
+  z-index: 999;
+  width: 100%;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+/* Añadí opacidad al color de la cabecera para que se transparente un poco como en la versión móvil de Zeplin. Miriam. */
+
+.title {
+  background-color: #099d8e96;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  font-family: var(--rubik);
+  /*border: 10px solid black;*/
+}
+.options {
+  background-color: #14d9c4;
+  height: 45px;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.point {
+  color: white;
+  font-size: 15px;
+  font-family: var(--rubik);
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+/*main {
+  transform: translateY(80px);
+  position: relative;
+  top: 50px;}*/ /*Esto podria recolver el problema de la superpuesta, pero cambiaria la parte siguiente*/
+
+/*MIRIAM*/
+
+.team-background {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.team-photo {
+  background-image: url(../images/fondo_provisional.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 421px;
+}
+
+.team-motto {
+  background-color: var(--white);
+  font-family: var(--open-sans);
+  font-weight: bold;
+  color: var(--black);
+  text-align: center;
+  position: relative;
+  bottom: -43px;
+  height: 80px;
+  margin: 0 15px 0 15px;
+}
+
+/*ROSA*/
+
+.titulo-verde {
+  color: #099d8d;
+  text-align: center;
+}
+
+.centrado-claro {
+  text-align: center;
+  color: #b8b8b9;
+}
+
+.centrado-oscuro {
+  text-align: center;
+  color: #54585a;
+}
+
+.container-equipo {
+  width: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 1% 1% 1% 1%;
+}
+
+.item-1 {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  padding: 0% 2.5% 0% 2.5%;
+  margin-top: 30px;
+}
+
+/*Si quitas el width y pones flex-direction:column, se te pondrá como en la versión móvil. Luego si queremos ajustar algo más creo que se puede marcar con algo de padding. Miriam */
+
+.container-fortaleza-debilidad {
+  width: 80%;
+  background-color: #f1f1f1;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  margin: auto;
+}
+
+.item-2 {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  padding: 5% 2.5% 5% 2.5%;
+}
+/*Alejandra*/
+
+.container-presentacion {
+  background: var(--white);
+  text-align: center;
+}
+
+.quienes {
+  font-family: Rubik-Medium;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark-green);
+}
+.title-nombre {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  text-align: center;
+  color: var(--black);
+}
+
+.descripcion {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-grey);
+}
+
+.redes-lista {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  /*creo que lo correcto es hacerlo con inline margin y padding pero no me deja ¿podemos intentar luego juntas?*/
+  gap: 5px;
+  text-align: center;
+  padding-inline-start: 0;
+}
+
+/*Pude solucionarlo, Alejandra. Simplemente utilicé la clase que creaste de "fa.solid" de manera individual. Se ve que estaría haciendo conflicto por algún motivo pero por separado funciona. Miriam.*/
+
+.fa-brands {
+  color: var(--dark-green);
+}
+
+.fa-solid {
+  color: var(--dark-green);
+}
+
+/* ZAHIRA */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid var(--light-grey);
+}
+.ul-footer {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.link-footer {
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+}
+.image-adalab {
+  height: 45px;
+  width: 115.9px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.p {
+  margin-top: 45px;
+}
