@@ -2,6 +2,7 @@
   /*Fuentes*/
   --open-sans: "Open Sans", sans-serif;
   --rubik: "Rubik", sans-serif;
+  
   /*Colores*/
   --dark-green: #099d8d;
   --light-green: #14d9c4;
@@ -382,6 +383,8 @@ a {
 /* ZAHIRA */
 
 .footer {
+  font-size: 14px;
+  font-family: var(--open-sans)
   display: flex;
   justify-content: center;
   text-align: center;
@@ -389,14 +392,21 @@ a {
   border-top: 1px solid var(--light-grey);
 }
 .ul-footer {
+  
   list-style: none;
   text-align: center;
   margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+ font-family: var(--open-sans)
+  
+  
 }
 .link-footer {
   text-decoration: none;
   color: black;
   flex-direction: column;
+  color: darkgrey;
 }
 .image-adalab {
   height: 45px;
@@ -406,4 +416,14 @@ a {
 }
 .p {
   margin-top: 45px;
+  font-size: 14px;
+  font-family: var(--open-sans);
+  color: lightslategrey
+}
+.article-footer{
+  justify-content: center;
+  text-align: center;
+}
+li.footer{
+  
 }
