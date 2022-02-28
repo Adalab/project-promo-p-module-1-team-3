@@ -20,6 +20,65 @@ body {
   background-color: var(--background-grey);
 }
 
+
+/*MARIA*/
+
+.title-points {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  height: 60px;
+  z-index: 999;
+  width: 100%;
+}
+
+.font {
+  font-size: 16px;
+}
+
+.title {
+  background-color: #099d8e96;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  font-family: var(--rubik);
+}
+
+.options {
+  background-color: #14d9c496;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+}
+
+.point {
+  color: white;
+  font-size: 15px;
+  font-family: var(--rubik);
+  text-decoration: none;
+}
+.decoration {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+
+
+
 /*MIRIAM*/
 
 .team-background {
@@ -189,66 +248,6 @@ body {
   border: 5px solid var(--background-grey);
 }
 
-/*MARIA*/
-
-/*María, al quitar el border que añadiste, se ajusta sin problemas. El borde viene de la lista, no del header como tal, y al retirarlo pues apañado. Así que lo de left y right tampoco es necesario porque se corrije sólo con la position:fixed. Miriam.*/
-
-.title-points {
-  list-style: none;
-  margin: 0%;
-  padding: 0%;
-  position: fixed;
-  height: 60px;
-  z-index: 999;
-  width: 100%;
-}
-
-h1 {
-  font-size: 16px;
-}
-
-/* Añadí opacidad al color de la cabecera para que se transparente un poco como en la versión móvil de Zeplin. Miriam. */
-
-.title {
-  background-color: #099d8e96;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 60px;
-  font-family: var(--rubik);
-  /*border: 10px solid black;*/
-}
-.options {
-  background-color: #14d9c496;
-  height: 45px;
-}
-
-.dots {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  list-style: none;
-  padding: 0px;
-}
-
-.point {
-  color: white;
-  font-size: 15px;
-  font-family: var(--rubik);
-  text-decoration: none;
-}
-a {
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-/*main {
-  transform: translateY(80px);
-  position: relative;
-  top: 50px;}*/ /*Esto podria recolver el problema de la superpuesta, pero cambiaria la parte siguiente*/
 
 /*MIRIAM*/
 
