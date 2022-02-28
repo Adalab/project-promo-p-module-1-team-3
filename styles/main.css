@@ -10,6 +10,172 @@
   --dark-grey: #54585a;
   --light-grey: #b8b8b9;
   --background-grey: #f1f1f1;
+  /*Iconos*/
+}
+
+/*GRUPAL*/
+
+body {
+  background-color: var(--background-grey);
+}
+
+/*MIRIAM*/
+
+.team-background {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.team-photo {
+  background-image: url(../images/fondo_provisional.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 180px;
+}
+
+.team-motto {
+  background-color: var(--background-grey);
+  font-family: var(--open-sans);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--black);
+  text-align: center;
+  position: relative;
+  bottom: -20px;
+}
+
+/*ROSA*/
+
+.titulo-verde {
+  color: #099d8d;
+  text-align: center;
+}
+
+.centrado-claro {
+  text-align: center;
+  color: #b8b8b9;
+}
+
+.centrado-oscuro {
+  text-align: center;
+  color: #54585a;
+}
+
+.container-equipo {
+  width: 30%;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 1% 1% 1% 1%;
+}
+
+.item-1 {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  padding: 0% 2.5% 0% 2.5%;
+}
+
+.container-fortaleza-debilidad {
+  width: 80%;
+  background-color: #f1f1f1;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  margin: auto;
+}
+
+.item-2 {
+  width: auto;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  padding: 5% 2.5% 5% 2.5%;
+}
+/*Alejandra*/
+
+.container-presentacion {
+  background: var(--white);
+}
+
+.quienes {
+  font-family: Rubik-Medium;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark-green);
+}
+.title-nombre {
+  font-family: OpenSans-Regular;
+  font-size: 20px;
+  text-align: center;
+  color: var(--black);
+}
+
+.descripcion {
+  font-family: OpenSans-Regular;
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-grey);
+}
+
+.redes-lista {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  /*creo que lo correcto es hacerlo con inline margin y padding pero no me deja ¿podemos intentar luego juntas?*/
+  gap: 5px;
+  text-align: center;
+}
+
+/*en principio se cambiaba el color del icono pero no sé que he hecho que ya no me deja. El lunes lo reviso de nuevo*/
+.fa-brands .fa-solid {
+  color: var(--dark-green);
+}
+
+/*ZAHIRA*/
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+}
+.ul-footer {
+  list-style: none;
+  text-align: center;
+  margin-top: 20px;
+}
+.link-footer {
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+}
+.image-adalab {
+  height: 45px;
+  width: 115.9px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.p {
+  margin-top: 45px;
+}
+:root {
+  /*Fuentes*/
+  --open-sans: "Open Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
+  /*Colores*/
+  --dark-green: #099d8d;
+  --light-green: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #54585a;
+  --light-grey: #b8b8b9;
+  --background-grey: #f1f1f1;
 }
 
 /*GRUPAL*/
@@ -106,7 +272,7 @@ a {
   color: var(--black);
   text-align: center;
   position: relative;
-  bottom: -43px;
+  bottom: -43px;a
   height: 80px;
   margin: 0 15px 0 15px;
 }
