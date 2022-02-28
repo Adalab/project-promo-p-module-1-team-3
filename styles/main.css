@@ -105,31 +105,33 @@ body {
 
 /*ROSA*/
 
-.titulo-verde {
-  color: #099d8d;
+.container-equipo {
+  margin: 46px 15px 30px 15px;
+  background-color: white;
   text-align: center;
-}
-
-.centrado-claro {
-  text-align: center;
-  color: #b8b8b9;
-}
-
-.centrado-oscuro {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 16px;
   color: #54585a;
 }
 
-.container-equipo {
-  width: 30%;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: 1% 1% 1% 1%;
+.titulo-verde {
+  color: #14d9c4;
+  text-align: center;
 }
 
-.item-1 {
+.container-fortaleza-debilidad {
+  margin: 30px 15px 45px 15px;
+  background-color: var (--cool-grey);
+  display: flex;
+  justify-content: center;  
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+.fortaleza-debilidad {
   width: auto;
   height: auto;
   justify-content: center;
@@ -137,23 +139,13 @@ body {
   padding: 0% 2.5% 0% 2.5%;
 }
 
-.container-fortaleza-debilidad {
-  width: 80%;
-  background-color: #f1f1f1;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-direction: row;
-  margin: auto;
+.parrafo-gris {
+  text-align: center;
+  color: #54585a;
 }
 
-.item-2 {
-  width: auto;
-  height: auto;
-  justify-content: center;
-  justify-items: center;
-  padding: 5% 2.5% 5% 2.5%;
-}
+
+
 /*Alejandra*/
 
 .container-presentacion {
@@ -274,60 +266,7 @@ body {
   margin: 0 15px 0 15px;
 }
 
-/*ROSA*/
 
-.titulo-verde {
-  color: #099d8d;
-  text-align: center;
-}
-
-.centrado-claro {
-  text-align: center;
-  color: #b8b8b9;
-}
-
-.centrado-oscuro {
-  text-align: center;
-  color: #54585a;
-}
-
-.container-equipo {
-  width: 30%;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  margin: auto;
-  padding: 1% 1% 1% 1%;
-}
-
-.item-1 {
-  width: auto;
-  height: auto;
-  justify-content: center;
-  justify-items: center;
-  padding: 0% 2.5% 0% 2.5%;
-  margin-top: 30px;
-}
-
-/*Si quitas el width y pones flex-direction:column, se te pondrá como en la versión móvil. Luego si queremos ajustar algo más creo que se puede marcar con algo de padding. Miriam */
-
-.container-fortaleza-debilidad {
-  width: 80%;
-  background-color: #f1f1f1;
-  justify-content: center;
-  display: flex;
-  flex-direction: row;
-  flex-direction: row;
-  margin: auto;
-}
-
-.item-2 {
-  width: auto;
-  height: auto;
-  justify-content: center;
-  justify-items: center;
-  padding: 5% 2.5% 5% 2.5%;
-}
 /*Alejandra*/
 
 .container-presentacion {
