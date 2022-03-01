@@ -126,7 +126,7 @@ body {
   margin: 30px 15px 45px 15px;
   background-color: var (--cool-grey);
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   font-family: "Open Sans";
   font-size: 16px;
 }
@@ -142,49 +142,6 @@ body {
 .parrafo-gris {
   text-align: center;
   color: #54585a;
-}
-
-
-
-/*Alejandra*/
-
-.container-presentacion {
-  background: var(--white);
-}
-
-.quienes {
-  font-family: var(--rubik);
-  font-weight: 500;
-  font-size: 24px;
-  text-align: center;
-  color: var(--dark-green);
-}
-.title-nombre {
-  font-family: OpenSans-Regular;
-  font-size: 20px;
-  text-align: center;
-  color: var(--black);
-}
-
-.descripcion {
-  font-family: OpenSans-Regular;
-  font-size: 16px;
-  text-align: center;
-  color: var(--dark-grey);
-}
-
-.redes-lista {
-  display: flex;
-  list-style: none;
-  flex-direction: row;
-  justify-content: center;
-  gap: 5px;
-  text-align: center;
-}
-
-/*en principio se cambiaba el color del icono pero no sé que he hecho que ya no me deja. El lunes lo reviso de nuevo*/
-.fa-brands .fa-solid {
-  color: var(--dark-green);
 }
 
 /*ZAHIRA*/
@@ -266,36 +223,31 @@ body {
   margin: 0 15px 0 15px;
 }
 
-
 /*Alejandra*/
 
 .container-presentacion {
   background: var(--white);
   text-align: center;
-  /*Tengo dudas de si debería definifir el tamaño según como lo indica en Zeplin
-  width: 320px;
-  height: 2225px;
-  margin: 1083px 0 0;
   padding: 30px 15px 45px;
-  background-color: #fff;*/
 }
 
 .quienes {
-  font-family: var(--rubik-medium);
+  font-family: var(--rubik);
   font-weight: 500;
   font-size: 24px;
   text-align: center;
   color: var(--dark-green);
 }
 .title-nombre {
-  font-family: OpenSans-Regular;
+  font-family: var(--open-sans);
   font-size: 20px;
   text-align: center;
+  font-weight: normal;
   color: var(--black);
 }
 
 .descripcion {
-  font-family: OpenSans-Regular;
+  font-family: var(--open-sans);
   font-size: 16px;
   text-align: center;
   color: var(--dark-grey);
@@ -314,19 +266,13 @@ body {
   padding-bottom: 15px;
 }
 
-/*Pude solucionarlo, Alejandra. Simplemente utilicé la clase que creaste de "fa.solid" de manera individual. Se ve que estaría haciendo conflicto por algún motivo pero por separado funciona. Miriam.*/
-
 .fa-brands {
   color: var(--dark-green);
+  text-align: center;
 }
 
 .fa-solid {
   color: var(--dark-green);
-}
-
-/* ZAHIRA */
-.image-zai {
-  width: 180px;
 }
 
 .footer {
