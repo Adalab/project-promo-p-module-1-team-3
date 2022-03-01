@@ -11,13 +11,15 @@
   --dark-grey: #54585a;
   --light-grey: #b8b8b9;
   --background-grey: #f1f1f1;
-  /*Iconos*/
 }
 
 /*GRUPAL*/
 
-body {
-  background-color: var(--background-grey);
+.images {
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--background-grey);
+  border-radius: 4px;
 }
 
 /*MARIA*/
@@ -45,7 +47,7 @@ body {
   text-align: center;
   height: 60px;
   font-family: var(--rubik);
-  font-weight: 500; /*Maria he agregado el weight para que se vea como rubik medium*/
+  font-weight: 500;
 }
 
 .options {
@@ -79,28 +81,27 @@ body {
 /*MIRIAM*/
 
 .team-background {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  background-image: url(../images/fondo-grupal.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .team-photo {
-  background-image: url(../images/fondo_provisional.jpg);
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 180px;
+  height: 421px;
 }
 
 .team-motto {
-  background-color: var(--background-grey);
+  background-color: var(--white);
   font-family: var(--open-sans);
   font-weight: bold;
   font-size: 18px;
   color: var(--black);
-  text-align: center;
   position: relative;
   bottom: -20px;
+  padding: 0 15px 0 15px;
 }
 
 /*ROSA*/
@@ -117,14 +118,32 @@ body {
   color: #54585a;
 }
 
+.design {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
 .titulo-verde {
   color: #14d9c4;
   text-align: center;
+  font-family: var(--rubik);
+  font-weight: 24px;
+}
+
+.titulo-verde-1 {
+  color: #14d9c4;
+  text-align: center;
+  font-family: var(--rubik);
+  font-weight: 22px;
 }
 
 .container-fortaleza-debilidad {
-  margin: 30px 15px 45px 15px;
-  background-color: var (--cool-grey);
+  margin: 30px 0 45px 0;
   display: flex;
   justify-content: center;
   font-family: "Open Sans";
@@ -132,6 +151,7 @@ body {
 }
 
 .fortaleza-debilidad {
+  background-color: var(--background-grey);
   width: auto;
   height: auto;
   justify-content: center;
@@ -144,91 +164,11 @@ body {
   color: #54585a;
 }
 
-/*ZAHIRA*/
-.footer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: white;
-}
-.ul-footer {
-  list-style: none;
-  text-align: center;
-  margin-top: 20px;
-}
-.link-footer {
-  text-decoration: none;
-  color: black;
-  flex-direction: column;
-}
-.image-adalab {
-  height: 45px;
-  width: 115.9px;
-  margin-top: 30px;
-  margin-bottom: 45px;
-}
-.p {
-  margin-top: 45px;
-}
-:root {
-  /*Fuentes*/
-  --open-sans: "Open Sans", sans-serif;
-  --rubik: "Rubik", sans-serif;
-  /*Colores*/
-  --dark-green: #099d8d;
-  --light-green: #14d9c4;
-  --white: #ffffff;
-  --black: #000000;
-  --dark-grey: #54585a;
-  --light-grey: #b8b8b9;
-  --background-grey: #f1f1f1;
-}
-
-/*GRUPAL*/
-
-/*Esto es para que cuando subamos las imágenes, si añadis esta etiqueta, se pongan todas con la misma dimensión y con el mismo borde. Se ha agregado border-radius.*/
-
-.images {
-  width: 180px;
-  height: 180px;
-  border: 5px solid var(--background-grey);
-  border-radius: 4px;
-}
-
-/*MIRIAM*/
-
-.team-background {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.team-photo {
-  background-image: url(../images/fondo_provisional.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  height: 421px;
-}
-
-.team-motto {
-  background-color: var(--white);
-  font-family: var(--open-sans);
-  font-weight: bold;
-  color: var(--black);
-  text-align: center;
-  position: relative;
-  bottom: -43px;
-  height: 80px;
-  margin: 0 15px 0 15px;
-}
-
-/*Alejandra*/
+/*ALEJANDRA*/
 
 .container-presentacion {
   background: var(--white);
   text-align: center;
-  padding: 30px 15px 45px;
 }
 
 .quienes {
@@ -237,20 +177,21 @@ body {
   font-size: 24px;
   text-align: center;
   color: var(--dark-green);
+  padding: 30px;
 }
 .title-nombre {
-  font-family: var(--open-sans);
+  font-family: OpenSans-Regular;
   font-size: 20px;
   text-align: center;
-  font-weight: normal;
   color: var(--black);
 }
 
 .descripcion {
-  font-family: var(--open-sans);
+  font-family: OpenSans-Regular;
   font-size: 16px;
   text-align: center;
   color: var(--dark-grey);
+  padding: 0 15px 0 15px;
 }
 
 .redes-lista {
@@ -258,21 +199,25 @@ body {
   list-style: none;
   flex-direction: row;
   justify-content: center;
-  /*creo que lo correcto es hacerlo con inline margin y padding pero no me deja ¿podemos intentar luego juntas?*/
   gap: 5px;
   text-align: center;
   padding-inline-start: 0;
-  margin-bottom: 1px;
-  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 45px;
 }
 
 .fa-brands {
   color: var(--dark-green);
-  text-align: center;
 }
 
 .fa-solid {
   color: var(--dark-green);
+}
+
+/* ZAHIRA */
+
+.image-zai {
+  width: 180px;
 }
 
 .footer {
