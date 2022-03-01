@@ -180,14 +180,14 @@
   padding: 30px;
 }
 .title-nombre {
-  font-family: OpenSans-Regular;
+  font-family: var(--open-sans);
   font-size: 20px;
   text-align: center;
   color: var(--black);
 }
 
 .descripcion {
-  font-family: OpenSans-Regular;
+  font-family: var(--open-sans);
   font-size: 16px;
   text-align: center;
   color: var(--dark-grey);
