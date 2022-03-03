@@ -1,0 +1,284 @@
+/*
+@import 'core/variables'; */
+@import "core/reset";
+/*@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index';
+*/
+
+:root {
+  /*Fuentes*/
+  --open-sans: "Open Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
+
+  /*Colores*/
+  --dark-green: #099d8d;
+  --light-green: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #54585a;
+  --light-grey: #b8b8b9;
+  --background-grey: #f1f1f1;
+}
+
+/*GRUPAL*/
+
+.images {
+  width: 180px;
+  height: 180px;
+  border: 5px solid var(--background-grey);
+  border-radius: 4px;
+}
+
+/*MARIA*/
+
+.title-points {
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  height: 60px;
+  z-index: 999;
+  width: 100%;
+}
+
+.font {
+  font-size: 16px;
+}
+
+.title {
+  background-color: #099d8e96;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  font-family: var(--rubik);
+  font-weight: 500;
+}
+
+.options {
+  background-color: #14d9c496;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+}
+
+.point {
+  color: white;
+  font-size: 15px;
+  font-family: var(--rubik);
+  text-decoration: none;
+}
+.decoration {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+/*MIRIAM*/
+
+.team-background {
+  background-image: url(../images/fondo-grupal.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.team-photo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 421px;
+}
+
+.team-motto {
+  background-color: var(--white);
+  font-family: var(--open-sans);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--black);
+  position: relative;
+  bottom: -20px;
+  padding: 0 15px 0 15px;
+}
+
+/*ROSA*/
+
+.container-equipo {
+  margin: 46px 15px 30px 15px;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  color: #54585a;
+}
+
+.design {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: var(--white);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -15px;
+}
+
+.titulo-verde {
+  color: #14d9c4;
+  text-align: center;
+  font-family: var(--rubik);
+  font-weight: 24px;
+}
+
+.titulo-verde-1 {
+  color: #14d9c4;
+  text-align: center;
+  font-family: var(--rubik);
+  font-weight: 22px;
+}
+
+.container-fortaleza-debilidad {
+  margin: 30px 0 45px 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+
+.fortaleza-debilidad {
+  background-color: var(--background-grey);
+  width: auto;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  padding: 0% 2.5% 0% 2.5%;
+}
+
+.parrafo-gris {
+  text-align: center;
+  color: #54585a;
+}
+
+/*ALEJANDRA*/
+
+.container-presentacion {
+  background: var(--white);
+  text-align: center;
+}
+
+.quienes {
+  font-family: var(--rubik);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark-green);
+  padding: 30px;
+}
+.title-nombre {
+  font-family: var(--open-sans);
+  font-size: 20px;
+  text-align: center;
+  color: var(--black);
+}
+
+.descripcion {
+  font-family: var(--open-sans);
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-grey);
+  padding: 0 15px 0 15px;
+}
+
+.redes-lista {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding-inline-start: 0;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+
+.fa-brands {
+  color: var(--dark-green);
+}
+
+.fa-solid {
+  color: var(--dark-green);
+}
+
+/* ZAHIRA */
+
+.image-zai {
+  width: 180px;
+}
+
+.footer {
+  font-size: 14px;
+  font-family: var(--open-sans);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-top: 1px solid var(--light-grey);
+}
+.ul-footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--open-sans);
+}
+.link-footer {
+  text-decoration: none;
+  color: black;
+  flex-direction: column;
+  color: darkgrey;
+}
+.image-adalab {
+  height: 45px;
+  width: 115.9px;
+  margin-top: 30px;
+  margin-bottom: 45px;
+}
+.p {
+  margin-top: 45px;
+  font-size: 14px;
+  font-family: var(--open-sans);
+  color: lightslategrey;
+}
+.article-footer {
+  justify-content: center;
+  text-align: center;
+}
+.nav {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
