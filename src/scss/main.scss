@@ -117,7 +117,7 @@
 
 /*ROSA*/
 
-.container-equipo {
+.container-team {
   margin: 46px 15px 30px 15px;
   background-color: white;
   text-align: center;
@@ -139,21 +139,21 @@
   margin-top: -15px;
 }
 
-.titulo-verde {
+.green-title {
   color: #14d9c4;
   text-align: center;
   font-family: var(--rubik);
   font-weight: 24px;
 }
 
-.titulo-verde-1 {
+.green-title-1 {
   color: #14d9c4;
   text-align: center;
   font-family: var(--rubik);
   font-weight: 22px;
 }
 
-.container-fortaleza-debilidad {
+.container-strength-weakness {
   margin: 30px 0 45px 0;
   display: flex;
   justify-content: center;
@@ -161,7 +161,7 @@
   font-size: 16px;
 }
 
-.fortaleza-debilidad {
+.strength-weakness {
   background-color: var(--background-grey);
   width: auto;
   height: auto;
@@ -170,19 +170,19 @@
   padding: 0% 2.5% 0% 2.5%;
 }
 
-.parrafo-gris {
+.grey-paragraph {
   text-align: center;
   color: #54585a;
 }
 
 /*ALEJANDRA*/
 
-.container-presentacion {
+.container-presentation {
   background: var(--white);
   text-align: center;
 }
 
-.quienes {
+.who {
   font-family: var(--rubik);
   font-weight: 500;
   font-size: 24px;
@@ -190,14 +190,14 @@
   color: var(--dark-green);
   padding: 30px;
 }
-.title-nombre {
+.name-title {
   font-family: var(--open-sans);
   font-size: 20px;
   text-align: center;
   color: var(--black);
 }
 
-.descripcion {
+.description {
   font-family: var(--open-sans);
   font-size: 16px;
   text-align: center;
@@ -205,7 +205,7 @@
   padding: 0 15px 0 15px;
 }
 
-.redes-lista {
+.socialmedia-list {
   display: flex;
   list-style: none;
   flex-direction: row;
