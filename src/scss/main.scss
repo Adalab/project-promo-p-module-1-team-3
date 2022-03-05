@@ -40,6 +40,7 @@
   margin: 0%;
   padding: 0%;
   position: fixed;
+  top: 0;
   height: 60px;
   z-index: 999;
   width: 100%;
@@ -91,8 +92,10 @@
 
 /*MIRIAM*/
 
+/*MOBILE VERSION - PRINCIPAL WEB*/
+
 .team-background {
-  background-image: url(../images/fondo-grupal.jpg);
+  background-image: url(./assets/images/fondo-grupal.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -113,6 +116,48 @@
   position: relative;
   bottom: -20px;
   padding: 0 15px 0 15px;
+}
+
+/*MOBILE VERSION - CONTACT*/
+
+.contact-image {
+  background: url(./assets/images/fondo-grupal.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-title {
+  color: var(--dark-green);
+  font-family: var(--rubik);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  padding: 30px 80.5px 15px 82.5px;
+}
+
+.contact-text {
+  color: var(--dark-grey);
+  font-family: var(--open-sans);
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 15px 60px 15px;
+}
+
+.contact-small-text {
+  color: var(--dark-grey);
+  font-family: var(--open-sans);
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 58px;
+}
+
+.asterisk {
+  color: var(--light-green);
 }
 
 /*ROSA*/
