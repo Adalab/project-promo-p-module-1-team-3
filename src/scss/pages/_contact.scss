@@ -1,0 +1,75 @@
+.contact-image {
+  background: url(../images/fondo-grupal.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-title {
+  color: var(--dark-green);
+  font-family: var(--rubik);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 45px;
+  padding: 30px 80.5px 15px 82.5px;
+}
+
+.contact-text {
+  color: var(--dark-grey);
+  font-family: var(--open-sans);
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 15px 30px 15px;
+}
+
+.contact-small-text {
+  color: var(--dark-grey);
+  font-family: var(--open-sans);
+  font-size: 12px;
+  line-height: 24px;
+  padding-bottom: 58px;
+}
+
+.asterisk {
+  color: var(--light-green);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 15px;
+  font-family: var(--open-sans);
+}
+
+.label {
+  color: var(--dark-grey);
+  font-size: 14px;
+}
+
+.input {
+  color: var(--light-grey);
+  width: 100%;
+  margin: 7px 0 13px;
+  padding: 7px 57px 16px 15px;
+  font-size: 16px;
+  border: 1px solid var(--light-grey);
+  outline: none;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.submit {
+  background-color: var(--dark-green);
+  color: var(--white);
+  font-weight: 600;
+  border: none;
+  margin-top: 30px;
+  width: 290px;
+  height: 45px;
+  border-radius: 4px;
+}

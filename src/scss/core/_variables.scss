@@ -1,6 +1,14 @@
-// fonts
-$font-main: 'Roboto', sans-serif;
+:root {
+  /*Fuentes*/
+  --open-sans: "Open Sans", sans-serif;
+  --rubik: "Rubik", sans-serif;
 
-// colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+  /*Colores*/
+  --dark-green: #099d8d;
+  --light-green: #14d9c4;
+  --white: #ffffff;
+  --black: #000000;
+  --dark-grey: #54585a;
+  --light-grey: #b8b8b9;
+  --background-grey: #f1f1f1;
+}

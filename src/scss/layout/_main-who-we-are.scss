@@ -1,0 +1,47 @@
+.container-presentation {
+  background: var(--white);
+  text-align: center;
+}
+
+.who {
+  font-family: var(--rubik);
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  color: var(--dark-green);
+  padding: 30px;
+}
+.name-title {
+  font-family: var(--open-sans);
+  font-size: 20px;
+  text-align: center;
+  color: var(--black);
+}
+
+.description {
+  font-family: var(--open-sans);
+  font-size: 16px;
+  text-align: center;
+  color: var(--dark-grey);
+  padding: 0 15px 0 15px;
+}
+
+.socialmedia-list {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  padding-inline-start: 0;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+
+.fa-brands {
+  color: var(--dark-green);
+}
+
+.fa-solid {
+  color: var(--dark-green);
+}
