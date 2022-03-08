@@ -25,72 +25,8 @@
     <include src="./partials/header.html"></include>
     <!--MAIN-->
     <main>
-      <!--CONTACT TEXT-->
-      <section class="contact">
-        <div class="contact-image"></div>
-        <h2 class="contact-title">Contacto</h2>
-        <p class="contact-text">
-          ¿Quieres contactar con nosotras? Sólo tienes que rellenar el siguiente
-          formulario y nos pondremos en contacto contigo en menos de 15.000
-          parpadeos (o 24 horas).
-        </p>
-        <small class="contact-small-text"
-          >Todos los campos marcados con <span class="asterisk">*</span> son
-          obligatorios.</small
-        >
-      </section>
-      <!--FORM-->
-      <form class="form">
-        <label class="label" for="name"
-          >Nombre completo <span class="asterisk">*</span></label
-        >
-        <input
-          class="input"
-          id="name"
-          name="name"
-          type="text"
-          placeholder="Nombre..."
-          required=""
-        />
-        <fieldset class="desktop-version">
-          <label class="label" for="email"
-            >Email <span class="asterisk">*</span></label
-          >
-          <input
-            class="input"
-            id="email"
-            name="email"
-            type="text"
-            placeholder="nombre.apellidos@mail.com"
-            required=""
-          />
-
-          <label class="label" for="phone">Teléfono</label>
-          <input
-            class="input"
-            id="phone"
-            name="phone"
-            type="text"
-            placeholder="Ej. 123456789"
-          />
-        </fieldset>
-        <label class="label" for="sms"
-          >Mensaje <span class="asterisk">*</span></label
-        >
-        <textarea
-          class="input"
-          id="sms"
-          name="sms"
-          rows="6"
-          type="text"
-          placeholder="¿Qué necesitas?"
-          required=""
-        ></textarea>
-
-        <div class="submit-container">
-          <input class="submit" type="submit" value="Enviar" />
-        </div>
-      </form>
+      <include src="./partials/contact-text.html"></include>
+      <include src="./partials/contact-form.html>"></include>
     </main>
     <!--FOOTER-->
     <include src="./partials/footer.html"></include>
