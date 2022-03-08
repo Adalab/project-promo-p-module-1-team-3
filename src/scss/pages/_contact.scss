@@ -2,7 +2,7 @@
   background: url(../images/fondo-grupal.jpg);
   background-position: center;
   background-size: cover;
-  height: 200px;
+  height: 350px;
 }
 
 .contact {
@@ -15,7 +15,7 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 45px;
-  padding: 30px 80.5px 15px 82.5px;
+  margin: 30px 80.5px 15px 82.5px;
 }
 
 .contact-text {
@@ -38,10 +38,11 @@
   color: var(--light-green);
 }
 
+/* FORM */
+
 .form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 60px 15px;
   font-family: var(--open-sans);
 }
@@ -63,6 +64,15 @@
   box-sizing: border-box;
 }
 
+.input:focus {
+  color: var(--dark-grey);
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+}
+
 .submit {
   background-color: var(--dark-green);
   color: var(--white);
@@ -72,4 +82,8 @@
   width: 290px;
   height: 45px;
   border-radius: 4px;
+}
+
+.submit:hover {
+  background-color: var(--light-green);
 }
