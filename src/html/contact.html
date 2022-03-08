@@ -26,7 +26,7 @@
     <!--MAIN-->
     <main>
       <!--CONTACT TEXT-->
-      <article class="contact">
+      <section class="contact">
         <div class="contact-image"></div>
         <h2 class="contact-title">Contacto</h2>
         <p class="contact-text">
@@ -38,23 +38,21 @@
           >Todos los campos marcados con <span class="asterisk">*</span> son
           obligatorios.</small
         >
-      </article>
+      </section>
       <!--FORM-->
       <form class="form">
-        <div>
-          <label class="label" for="name"
-            >Nombre completo <span class="asterisk">*</span></label
-          >
-          <input
-            class="input"
-            id="name"
-            name="name"
-            type="text"
-            placeholder="Nombre..."
-            required=""
-          />
-        </div>
-        <div>
+        <label class="label" for="name"
+          >Nombre completo <span class="asterisk">*</span></label
+        >
+        <input
+          class="input"
+          id="name"
+          name="name"
+          type="text"
+          placeholder="Nombre..."
+          required=""
+        />
+        <fieldset class="desktop-version">
           <label class="label" for="email"
             >Email <span class="asterisk">*</span></label
           >
@@ -66,8 +64,7 @@
             placeholder="nombre.apellidos@mail.com"
             required=""
           />
-        </div>
-        <div>
+
           <label class="label" for="phone">Teléfono</label>
           <input
             class="input"
@@ -76,21 +73,20 @@
             type="text"
             placeholder="Ej. 123456789"
           />
-        </div>
-        <div>
-          <label class="label" for="sms"
-            >Mensaje <span class="asterisk">*</span></label
-          >
-          <textarea
-            class="input"
-            id="sms"
-            name="sms"
-            rows="6"
-            type="text"
-            placeholder="¿Qué necesitas?"
-            required=""
-          ></textarea>
-        </div>
+        </fieldset>
+        <label class="label" for="sms"
+          >Mensaje <span class="asterisk">*</span></label
+        >
+        <textarea
+          class="input"
+          id="sms"
+          name="sms"
+          rows="6"
+          type="text"
+          placeholder="¿Qué necesitas?"
+          required=""
+        ></textarea>
+
         <div class="submit-container">
           <input class="submit" type="submit" value="Enviar" />
         </div>

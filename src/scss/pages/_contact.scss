@@ -1,3 +1,5 @@
+/* CONTACT */
+
 .contact-image {
   background: url(../images/fondo-grupal.jpg);
   background-position: center;
@@ -45,6 +47,12 @@
   flex-direction: column;
   margin: 60px 15px;
   font-family: var(--open-sans);
+}
+
+.desktop-version {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .label {
