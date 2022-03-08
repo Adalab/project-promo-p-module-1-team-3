@@ -52,3 +52,27 @@
   color: white;
   text-align: center;
 }
+@media all and (min-width: 768px) {
+  .title-points {
+    background-color: #099d8e96;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .title {
+    background-color: transparent;
+    border-left: 45px;
+    border-right: 45px;
+  }
+  .options {
+    background-color: transparent;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-right: 36px;
+  }
+
+  .point {
+    padding: 18px;
+  }
+}

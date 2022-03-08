@@ -57,6 +57,12 @@
   font-family: var(--rubik);
   font-weight: 22px;
 }
+.green-title-2 {
+  color: #14d9c4;
+  text-align: center;
+  font-family: var(--rubik);
+  font-weight: 22px;
+}
 
 .container-strength-weakness {
   margin: 30px 0 45px 0;
@@ -78,4 +84,34 @@
 .grey-paragraph {
   text-align: center;
   color: #54585a;
+}
+@media all and (min-width: 768px) {
+  .team-motto {
+    transform: translate(-100px, -20px);
+    height: 80px;
+    width: 441px;
+    opacity: 0.5;
+    padding-bottom: 15px;
+  }
+  .h3 {
+    padding: 15px 30px 15px 30px;
+  }
+  .strength-weakness {
+    display: flex;
+    height: 333px;
+    width: 100%;
+  }
+  .green-title-1 {
+    padding-top: 45px;
+    padding-left: 45px;
+    margin-bottom: 15px;
+  }
+  .green-title-2 {
+    padding-top: 45px;
+    padding-right: 44.8px;
+    margin-bottom: 15px;
+  }
+  .grey-paragraph {
+    margin-bottom: 60px;
+  }
 }
