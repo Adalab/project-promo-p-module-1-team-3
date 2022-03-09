@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/0eae504e65.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Team Styles-->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <ul class="title-points">
+        <li class="title">
+          <h1 class="font">
+            <a class="decoration" href="./index.html">FENCODERS</a>
+          </h1>
+        </li>
+
+        <li>
+          <nav class="options">
+            <ul class="dots">
+              <li class="point">
+                <a class="decoration" href="./index.html#team">EQUIPO</a>
+              </li>
+
+              <li class="point">
+                <a class="decoration" href="./index.html#whoweare">QUIÉNES SOMOS</a>
+              </li>
+
+              <li class="point">
+                <a class="decoration" href="./contact.html">CONTACTO</a>
+              </li>
+            </ul>
+          </nav>
+        </li>
+      </ul>
+    </header>
+
+    <!--MAIN-->
+    <main>
+      <!--CONTACT TEXT-->
+      <section class="contact">
+        <div class="contact-image"></div>
+        <h2 class="contact-title">Contacto</h2>
+        <p class="contact-text">
+          ¿Quieres contactar con nosotras? Sólo tienes que rellenar el siguiente
+          formulario y nos pondremos en contacto contigo en menos de 15.000 parpadeos
+          (o 24 horas).
+        </p>
+        <small class="contact-small-text"
+          >Todos los campos marcados con <span class="asterisk">*</span> son
+          obligatorios.</small
+        >
+      </section>
+
+      <!--FORM-->
+      <div class="container_form">
+        <form class="form">
+          <label class="label" for="name"
+            >Nombre completo <span class="asterisk">*</span></label
+          >
+          <input
+            class="input"
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Nombre..."
+            required=""
+          />
+          <fieldset class="desktop-version">
+            <label class="label" for="email"
+              >Email <span class="asterisk">*</span></label
+            >
+            <input
+              class="input"
+              id="email"
+              name="email"
+              type="text"
+              placeholder="nombre.apellidos@mail.com"
+              required=""
+            />
+
+            <label class="label" for="phone">Teléfono</label>
+            <input
+              class="input"
+              id="phone"
+              name="phone"
+              type="text"
+              placeholder="Ej. 123456789"
+            />
+          </fieldset>
+          <label class="label" for="sms"
+            >Mensaje <span class="asterisk">*</span></label
+          >
+          <textarea
+            class="input"
+            id="sms"
+            name="sms"
+            rows="6"
+            type="text"
+            placeholder="¿Qué necesitas?"
+            required=""
+          ></textarea>
+
+          <div class="submit-container">
+            <input class="submit" type="submit" value="Enviar" />
+          </div>
+        </form>
+      </div>
+
+    </main>
+    <!--FOOTER-->
+    <footer class="footer">
+      <article class="article-footer">
+        <p class="p">FEncoders © 2022</p>
+        <nav class="nav">
+          <ul class="ul-footer">
+            <li class="li.footer">
+              <a class="link-footer" href="./index.html#team">EQUIPO</a>
+            </li>
+            <li>
+              <a class="link-footer" href="./index.html#whoweare">QUIENES SOMOS</a>
+            </li>
+            <li>
+              <a class="link-footer" href="./contact.html#contact">CONTACTO</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container">
+          <img
+            class="image-adalab"
+            src="./assets/images/logo-adalab copy.png"
+            alt="Logo logo-adalab"
+          />
+        </div>
+      </article>
+    </footer>
+
+  </body>
+</html>
