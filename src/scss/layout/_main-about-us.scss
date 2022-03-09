@@ -37,11 +37,12 @@
 .design {
   width: 30px;
   height: 30px;
-  transform: rotate(45deg);
+  transform: rotate(45deg) translate(15px, 15px);
   background-color: var(--white);
   margin-left: auto;
   margin-right: auto;
-  margin-top: -15px;
+  margin-top: auto;
+  margin-bottom: -24px;
 }
 
 /* CÓDIGO DE ZEPLIN
@@ -85,7 +86,7 @@
 
 .container-strength-weakness {
   margin-top: 30px;
-  width: 320px;
+  width: 100%;
   height: 408px;
   display: flex;
   justify-content: center;
@@ -100,6 +101,7 @@
   background-color: var(--background-grey);
   width: auto;
   height: auto;
+  padding-top: 15px;
   justify-content: center;
   justify-items: center;
 }
@@ -124,10 +126,10 @@
 @media all and (min-width: 768px) {
   .team-motto {
     transform: translate(-100px, -20px);
-    height: 80px;
-    width: 441px;
     opacity: 0.5;
     padding-bottom: 15px;
+    height: 60px;
+    width: 340px;
   }
 
   .design {
@@ -139,6 +141,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: -22px;
+  }
+
+  .team {
+    padding: 0px 45px;
   }
 
   .container-strength-weakness {
@@ -155,7 +161,7 @@
   }
 
   .h3 {
-    padding: 15px 30px 15px 30px;
+    padding: 10px 30px 15px 30px;
   }
   .strength-weakness {
     display: flex;
