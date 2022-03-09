@@ -133,7 +133,6 @@
   }
 
   .design {
-    color: red;
     width: 30px;
     height: 30px;
     transform: rotate(45deg);
@@ -145,6 +144,7 @@
 
   .team {
     padding: 0px 45px;
+    opacity: 67%;
   }
 
   .container-strength-weakness {
@@ -160,33 +160,72 @@
     justify-items: center;
   }
 
+  #whoweare {
+    margin-bottom: -50px;
+  }
+
   .h3 {
     padding: 10px 30px 15px 30px;
   }
+
   .strength-weakness {
     display: flex;
     height: 333px;
     margin: -2.5%;
     width: 100%;
+    line-height: 24px;
   }
   .strength-title {
     padding-top: 45px;
-    padding-left: 45px;
-    margin-bottom: 15px;
   }
   .weakness-title {
     padding-top: 45px;
-    padding-right: 44.8px;
-    margin-bottom: 15px;
   }
   .strength-paragraph {
-    margin: 15px 30px 60px 45px;
     text-align: center;
     color: #54585a;
   }
   .weakness-paragraph {
-    margin: 15px 45px 84px 0px;
     text-align: center;
     color: #54585a;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .team-motto {
+    transform: translate(-190px, -20px);
+  }
+
+  .team {
+    padding: 10px 300px;
+    opacity: 67%;
+    line-height: 24px;
+  }
+
+  .design {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+  }
+
+  .strength-weakness {
+    margin: -1.5%;
+    padding-right: 138px;
+    padding-left: 138px;
+    line-height: 24px;
+    width: 100vw;
+  }
+
+  .strength-paragraph {
+    width: 34.3vw;
+    padding-right: 22.5px;
+  }
+  .weakness-paragraph {
+    width: 34.3vw;
+    padding-left: 22.5px;
   }
 }

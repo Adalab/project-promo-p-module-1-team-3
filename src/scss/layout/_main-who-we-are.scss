@@ -53,11 +53,12 @@
   .member-Rosa {
     display: flex;
     justify-content: left;
+    margin-top: 60px;
   }
   .member-Miriam {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 20px;
+    margin-top: 60px;
     .socialmedia-list {
       justify-content: right;
       padding-right: 15px;
@@ -73,7 +74,7 @@
   .member-Maria {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 20px;
+    margin-top: 60px;
     .socialmedia-list {
       justify-content: right;
       padding-right: 15px;
@@ -89,12 +90,12 @@
   .member-Alejandra {
     display: flex;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .member-Zai {
     display: flex;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 60px;
   }
   .box-photo {
     display: flex;
@@ -110,6 +111,7 @@
 
   .description {
     text-align: left;
+    width: 60vw;
   }
 
   .socialmedia-list {
@@ -119,5 +121,15 @@
   .box-text {
     padding-top: 20px;
     height: 190px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container-presentation {
+    padding: 0 138px;
+  }
+
+  .description {
+    width: 34.4vw;
   }
 }

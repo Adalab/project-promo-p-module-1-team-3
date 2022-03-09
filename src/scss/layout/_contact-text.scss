@@ -37,3 +37,19 @@
 .asterisk {
   color: var(--light-green);
 }
+
+/* RESPONSIVE */
+
+@media all and (min-width: 768px) {
+  .container-text {
+    width: 442px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .container-text {
+    width: 601px;
+    margin: 0 auto;
+  }
+}

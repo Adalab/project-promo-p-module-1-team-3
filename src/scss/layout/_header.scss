@@ -39,7 +39,6 @@
   list-style: none;
   padding: 0px;
   width: 100%;
-  margin-right: 45px;
 }
 
 .point {
@@ -66,6 +65,11 @@
     border-left: 45px;
     border-right: 45px;
   }
+
+  .dots {
+    padding-right: 45px;
+  }
+
   .options {
     background-color: transparent;
     height: 60px;
@@ -75,5 +79,12 @@
 
   .point {
     padding: 18px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .title-points {
+    display: flex;
+    justify-content: space-around;
   }
 }

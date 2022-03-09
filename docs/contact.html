@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Google Fonts-->
@@ -56,11 +56,13 @@
       <section class="contact">
         <div class="contact-image"></div>
         <h2 class="contact-title">Contacto</h2>
-        <p class="contact-text">
-          ¿Quieres contactar con nosotras? Sólo tienes que rellenar el siguiente
-          formulario y nos pondremos en contacto contigo en menos de 15.000 parpadeos
-          (o 24 horas).
-        </p>
+        <div class="container-text">
+          <p class="contact-text">
+            ¿Quieres contactar con nosotras? Sólo tienes que rellenar el siguiente
+            formulario y nos pondremos en contacto contigo en menos de 15.000
+            parpadeos (o 24 horas).
+          </p>
+        </div>
         <small class="contact-small-text"
           >Todos los campos marcados con <span class="asterisk">*</span> son
           obligatorios.</small
@@ -68,8 +70,13 @@
       </section>
 
       <!--FORM-->
-      <div class="container_form">
-        <form class="form">
+      <div class="container">
+        <form
+          action="https://formspree.io/f/mzbogwoq"
+          class="form"
+          action="https://formspree.io/f/mleznvoz"
+          method="post"
+        >
           <label class="label" for="name"
             >Nombre completo <span class="asterisk">*</span></label
           >
@@ -82,26 +89,29 @@
             required=""
           />
           <fieldset class="desktop-version">
-            <label class="label" for="email"
-              >Email <span class="asterisk">*</span></label
-            >
-            <input
-              class="input"
-              id="email"
-              name="email"
-              type="text"
-              placeholder="nombre.apellidos@mail.com"
-              required=""
-            />
-
-            <label class="label" for="phone">Teléfono</label>
-            <input
-              class="input"
-              id="phone"
-              name="phone"
-              type="text"
-              placeholder="Ej. 123456789"
-            />
+            <div>
+              <label class="label" for="email"
+                >Email <span class="asterisk">*</span></label
+              >
+              <input
+                class="input"
+                id="email"
+                name="email"
+                type="text"
+                placeholder="nombreapellidos@mail.com"
+                required=""
+              />
+            </div>
+            <div>
+              <label class="label" for="phone">Teléfono</label>
+              <input
+                class="input"
+                id="phone"
+                name="phone"
+                type="text"
+                placeholder="Ej. 123456789"
+              />
+            </div>
           </fieldset>
           <label class="label" for="sms"
             >Mensaje <span class="asterisk">*</span></label
@@ -125,29 +135,29 @@
     </main>
     <!--FOOTER-->
     <footer class="footer">
-      <article class="article-footer">
-        <p class="p">FEncoders © 2022</p>
-        <nav class="nav">
-          <ul class="ul-footer">
-            <li class="li.footer">
-              <a class="link-footer" href="./index.html#team">EQUIPO</a>
-            </li>
-            <li>
-              <a class="link-footer" href="./index.html#whoweare">QUIENES SOMOS</a>
-            </li>
-            <li>
-              <a class="link-footer" href="./contact.html#contact">CONTACTO</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="container">
-          <img
-            class="image-adalab"
-            src="./assets/images/logo-adalab copy.png"
-            alt="Logo logo-adalab"
-          />
-        </div>
-      </article>
+      <p class="p">FEncoders ©️ 2022</p>
+      <nav class="nav">
+        <ul class="ul-footer">
+          <li class="li-footer">
+            <a class="link-footer" href="./index.html#team">EQUIPO</a>
+          </li>
+
+          <li class="li-footer">
+            <a class="link-footer" href="./index.html#whoweare">QUIENES SOMOS</a>
+          </li>
+
+          <li class="li-footer">
+            <a class="link-footer" href="./contact.html">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container">
+        <img
+          class="image-adalab"
+          src="./assets/images/logo-adalab copy.png"
+          alt="Logo logo-adalab"
+        />
+      </div>
     </footer>
 
   </body>
