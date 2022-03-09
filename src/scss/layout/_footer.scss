@@ -55,4 +55,40 @@
   align-items: center;
 }
 @media all and (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .ul-footer {
+    align-items: flex-end;
+    padding-right: 45px;
+    padding-top: 24px;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .li-footer {
+    padding-bottom: 10px;
+  }
+
+  .p {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-left: 45px;
+  }
+
+  .image-adalab {
+    height: 45px;
+    width: 115.9px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -50px;
+    padding-left: 36px;
+  }
 }

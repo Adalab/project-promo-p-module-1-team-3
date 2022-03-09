@@ -148,7 +148,7 @@
   }
 
   .container-strength-weakness {
-    width: 768px;
+    width: 100vw;
     height: 333px;
     background-color: var(--background-grey);
     display: flex;
@@ -166,7 +166,8 @@
   .strength-weakness {
     display: flex;
     height: 333px;
-    margin: -1%;
+    margin: -2.5%;
+    width: 100%;
   }
   .strength-title {
     padding-top: 45px;
