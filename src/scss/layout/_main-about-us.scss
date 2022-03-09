@@ -214,8 +214,6 @@
 
   .strength-weakness {
     margin: -1.5%;
-    padding-right: 138px;
-    padding-left: 138px;
     line-height: 24px;
     width: 100vw;
   }
@@ -223,9 +221,11 @@
   .strength-paragraph {
     width: 34.3vw;
     padding-right: 22.5px;
+    padding-left: 22.5px;
   }
   .weakness-paragraph {
     width: 34.3vw;
     padding-left: 22.5px;
+    padding-right: 22.5px;
   }
 }
