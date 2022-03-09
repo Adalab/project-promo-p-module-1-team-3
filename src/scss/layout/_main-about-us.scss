@@ -44,6 +44,16 @@
   margin-top: -15px;
 }
 
+/* CÓDIGO DE ZEPLIN
+.design {
+  width: 30px;
+  height: 30px;
+  margin: 488.2px 144.8px 564.8px 145.2px;
+  transform: rotate(45deg);
+  background-color: #fff;
+}
+*/
+
 .green-title {
   color: #14d9c4;
   text-align: center;
@@ -51,25 +61,39 @@
   font-weight: 24px;
 }
 
-.green-title-1 {
-  color: #14d9c4;
+.weakness-title {
+  color: #099d8d;
   text-align: center;
   font-family: var(--rubik);
-  font-weight: 22px;
+  font-size: 22px;
+  font-weight: 500px;
+  margin: 30px 15px 0px 15px;
+  font-style: normal;
+  font-stretch: normal;
 }
-.green-title-2 {
-  color: #14d9c4;
+
+.strength-title {
+  color: #099d8d;
   text-align: center;
   font-family: var(--rubik);
-  font-weight: 22px;
+  font-size: 22px;
+  font-weight: 500px;
+  margin: 30px 15px 0px 15px;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 .container-strength-weakness {
-  margin: 30px 0 45px 0;
+  margin-top: 30px;
+  width: 320px;
+  height: 408px;
   display: flex;
   justify-content: center;
   font-family: "Open Sans";
   font-size: 16px;
+  background-color: var(--background-grey);
+  justify-content: center;
+  justify-items: center;
 }
 
 .strength-weakness {
@@ -78,13 +102,25 @@
   height: auto;
   justify-content: center;
   justify-items: center;
-  padding: 0% 2.5% 0% 2.5%;
 }
 
-.grey-paragraph {
+.strength-paragraph {
+  width: 290px;
   text-align: center;
   color: #54585a;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-stretch: normal;
+  font-weight: normal;
+  margin: 15px 15px 30px 15px;
 }
+
+.weakness-paragraph {
+  margin-right: 15px;
+  margin-bottom: 45px;
+  margin-left: 15px;
+}
+
 @media all and (min-width: 768px) {
   .team-motto {
     transform: translate(-100px, -20px);
@@ -93,25 +129,57 @@
     opacity: 0.5;
     padding-bottom: 15px;
   }
+
+  .design {
+    color: red;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    background-color: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -22px;
+  }
+
+  .container-strength-weakness {
+    width: 768px;
+    height: 333px;
+    background-color: var(--background-grey);
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    background-color: var(--background-grey);
+    justify-content: center;
+    justify-items: center;
+    }
+  }
   .h3 {
     padding: 15px 30px 15px 30px;
   }
   .strength-weakness {
     display: flex;
     height: 333px;
-    width: 100%;
+    margin: -1%;
   }
-  .green-title-1 {
+  .strength-title {
     padding-top: 45px;
     padding-left: 45px;
     margin-bottom: 15px;
   }
-  .green-title-2 {
+  .weakness-title {
     padding-top: 45px;
     padding-right: 44.8px;
     margin-bottom: 15px;
   }
-  .grey-paragraph {
-    margin-bottom: 60px;
+  .strength-paragraph {
+    margin: 15px 30px 60px 45px;
+    text-align: center;
+    color: #54585a;
+  }
+  .weakness-paragraph {
+    margin: 15px 45px 84px 0px;
+    text-align: center;
+    color: #54585a;
   }
 }
