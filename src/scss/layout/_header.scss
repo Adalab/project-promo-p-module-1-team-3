@@ -14,7 +14,8 @@
 }
 
 .title {
-  background-color: #099d8e96;
+  background-color: #099d8e;
+  opacity: 95%;
   color: white;
   display: flex;
   justify-content: center;
@@ -26,7 +27,8 @@
 }
 
 .options {
-  background-color: #14d9c496;
+  background-color: #14d9c4;
+  opacity: 90%;
   height: 45px;
   display: flex;
   align-items: center;
@@ -54,7 +56,8 @@
 }
 @media all and (min-width: 768px) {
   .title-points {
-    background-color: #099d8e96;
+    background-color: #099d8e;
+    opacity: 95%;
     display: flex;
     justify-content: space-between;
     padding-right: 45px;

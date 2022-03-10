@@ -122,6 +122,11 @@
     padding-top: 20px;
     height: 190px;
   }
+
+  .images {
+    width: 205px;
+    height: 205px;
+  }
 }
 
 @media all and (min-width: 1200px) {
@@ -131,5 +136,10 @@
 
   .description {
     width: 34.4vw;
+  }
+
+  .images {
+    width: 278px;
+    height: 278px;
   }
 }
