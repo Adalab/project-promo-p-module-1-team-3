@@ -12,8 +12,8 @@ Es un placer para nosotras presentaros nuestro **proyecto grupal**, en el cual h
 
 - HTML
 - CSS
-- SASS: partials, mixins, @import, variables...
-- Adalab Web Startet Kit: recursos y herramientas(Node JS, NPM, Gulp).
+- SASS
+- Adalab Web Startet Kit: recursos y herramientas (Node JS, NPM, Gulp).
 - Controlador de versiones GIT
 
 ---

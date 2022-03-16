@@ -1,3 +1,37 @@
+.animation {
+  display: inline-block;
+  margin-right: -3px;
+  transition: transform 1s ease-in-out;
+  transform: rotate(360deg) initial;
+}
+
+.header:hover .animation {
+  transform: rotate(360deg);
+}
+
+// .animation {
+//   display: inline-block;
+//   margin-right: -3px;
+//   animation-duration: 1s;
+//   animation-name: bounce;
+//   animation-iteration-count: infinite;
+//   animation-timing-function: linear;
+// }
+
+// @keyframes bounce {
+//   0% {
+//     transform: translate(0, -5px);
+//   }
+//   50% {
+//     transform: translate(0, 5px);
+//   }
+//   100% {
+//     transform: translate(0, -5px);
+//   }
+// }
+
+// ANIMATION
+
 .title-points {
   list-style: none;
   margin: 0%;
